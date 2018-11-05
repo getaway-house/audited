@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\).reject{|f| f =~ /(\.gemspec)/ }
   gem.require_paths = ['lib']
 
-  gem.add_dependency 'activerecord', '>= 4.0', '< 5.2'
+  gem.add_dependency 'activerecord', '>= 4.0', '< 5.3'
 
   gem.add_development_dependency 'appraisal'
   gem.add_development_dependency 'rails', '>= 4.0', '< 5.3'
